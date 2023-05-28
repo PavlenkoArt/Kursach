@@ -1,0 +1,52 @@
+body{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(45deg, rgb(95, 255, 63), rgb(0, 217, 255));
+}
+.pravila{
+  box-shadow: 0 0 9px;
+  min-width:20vw;
+  min-height:10vh;
+  background-color:#ffffff;
+  padding: 10px;
+  border-radius: 5px;
+}
+li{
+  font-size: 1.7rem;
+  justify-content: center;
+  align-items: center;
+}
+.uvachenie{
+  font-size: 2rem;
+  display:grid;
+  justify-content: center;
+  align-items: center;
+}
+.menu{
+  vertical-align: center;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  box-shadow: 0 0 4px;
+  width: 4.5rem;
+  height: 1.5rem;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 5px;
+  -webkit-transition: all 0.4s ease;;
+  -moz-transition: all 0.4s ease;;
+  -o-transition: all 0.4s ease;;
+  transition: all 0.4s ease;
+ }
+ 
+ a:hover {
+  background-color: #a2a2a2;
+ }
